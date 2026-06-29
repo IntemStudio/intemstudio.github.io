@@ -6,7 +6,7 @@ permalink: /unity/
 
 Unity 엔진과 관련된 엔지니어링 글을 모아둡니다.
 
-{% assign unity_articles = site.pages | where_exp: "p", "p.path contains 'unity/' and p.name != 'index'" | sort: "title" %}
+{% assign unity_articles = site.pages | where_exp: "p", "p.path contains 'unity/'" | where_exp: "p", "p.name != 'index'" | sort: "title" %}
 {% assign unity_posts = site.posts | where_exp: "post", "post.categories contains 'unity'" %}
 
 {% if unity_articles.size > 0 or unity_posts.size > 0 %}
