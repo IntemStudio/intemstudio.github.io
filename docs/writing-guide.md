@@ -4,6 +4,7 @@
 
 글 유형마다 **전용 템플릿**을 두고, 새로운 목적의 글이 생기면 `docs/writing/templates/`에 템플릿을 추가해 나갑니다. 모든 글은 아래 **공통 규칙**을 따른 뒤, 해당 유형의 템플릿을 적용합니다.
 
+**관련 규칙:** [project-rules.md](project-rules.md) — 커밋 메시지 등 저장소 공통 규칙 · [AGENTS.md](../AGENTS.md) — 에이전트 진입점  
 **참고 사례:** [unity/editor-log.md](../unity/editor-log.md) — 시스템 진화형 설계 글
 
 ---
