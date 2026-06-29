@@ -6,6 +6,9 @@ baseurl: ""
 markdown: kramdown
 theme: minima
 
+exclude:
+  - docs
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
