@@ -1,0 +1,16 @@
+title: Intem Studio
+description: Intem Studio 개발 블로그
+url: "https://intemstudio.github.io"
+baseurl: ""
+
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - index.md
+  - unity/index.md
+  - games/index.md
