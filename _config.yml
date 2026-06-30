@@ -9,6 +9,7 @@ theme: minima
 exclude:
   - docs
   - AGENTS.md
+  - vendor
 
 plugins:
   - jekyll-feed
