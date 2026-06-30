@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Game Development Notes
+title: Game
 permalink: /games/
 ---
 

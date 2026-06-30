@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Unity Engineering
+title: Unity
 permalink: /unity/
 ---
 
