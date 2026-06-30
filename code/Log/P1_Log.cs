@@ -291,34 +291,3 @@ namespace IntemStudio
         }
     }
 }
-
-/*
- * Log 최적화
-
-C# 조건 속성을 사용합니다.
-참고하기: https://msdn.microsoft.com/en-us/library/4xssyw96(v=vs.90).aspx
-
-using System;
-using System.Diagnostics;
-
-public class DebugX
-{
-    [Conditional("UnityEditor")]
-    public static void Log(string msg)
-    {
-        Debug.Log(msg);
-    }
-}
-
-PlayerSettings > Scripting Define Symbols 에 ACTIVE_DEBUG 가 없다면
-아래 코드 호출은 아예 처음부터 없었던 것으로 처리됩니다.
-
-DebugX.Log( "Hello world" );
-클래스 내부에 Conditional 속성이 지정된 static void 함수를 추가합니다.
-
-만약 Conditional 에 따라오는 심볼이 정의됬다면 static 함수는 존재합니다.
-중요한것은 static 함수 뿐만이 아니라, 그것을 호출하는 부분 까지 모조리 빌드에서 빠져나가므로 매우 간편합니다.
-조건 속성으로 묶인 디버그 함수를 사용한 코드들은 빌드시에 처음부터 존재하지도 않은 것이 됩니다.
-
-다만 유니티 콘솔창에서 로그를 더블 클릭하면, 오류가 난 지점이 아닌 디버그를 랩핑한 코드로 이동하는 사소한 불편은 있습니다.
-*/
