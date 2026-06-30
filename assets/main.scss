@@ -14,11 +14,12 @@ $amber-800: #973c00;
 $amber-900: #7b3306;
 $amber-950: #461901;
 
-// Light mode neutrals (minima Sass compile baseline)
-$bg-light-base:     #fffbeb;
-$bg-light-surface:  #f5f0e8;
-$bg-light-elevated: #eeeadf;
-$border-light:      #e0dcd0;
+// Light mode neutrals — warm off-white stack (#faf9f6 base)
+$bg-light-base:     #faf9f6;
+$bg-light-surface:  #f3f2ee;
+$bg-light-elevated: #ebe9e4;
+$border-light:      #dcd8d1;
+$bg-light-code:     #f1f0ec;
 
 // minima 2.x Sass variables — light defaults; dark overrides via CSS below
 $brand-color:       $amber-400;
@@ -141,7 +142,7 @@ $grey-color-dark:   $border-light;
   --color-link-visited:   var(--color-amber-600);
   --color-brand-hover:    var(--color-amber-500);
 
-  --color-code-block-bg:  #f3f0e6;
+  --color-code-block-bg:  #{$bg-light-code};
   --color-code-inline-bg: #{$bg-light-surface};
   --color-code-text:      var(--color-amber-950);
 }
